@@ -315,5 +315,3 @@ window.addEventListener('beforeunload', function(e) {
   console.log(e);
   e.returnValue = "No matter what we write here, we'll always get a generic messgae";
 });
-
-
